@@ -1,5 +1,5 @@
 nome_heroi = "Dragon Slayer"
-xp_heroi = 8963
+xp_heroi = 4737
 
 match xp_heroi:
     case xp_heroi if xp_heroi <= 1000:
@@ -20,4 +20,4 @@ match xp_heroi:
         xp_heroi = "Radiante"
     
 
-print(f"O heroi de nome {nome_heroi} está no nível {xp_heroi}")
+print(f"O herói de nome {nome_heroi} está no nível {xp_heroi}")
